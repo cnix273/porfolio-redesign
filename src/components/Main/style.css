@@ -6,7 +6,8 @@
     /* Typography */
     font-size: 18px;
     line-height: 27px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color:rgb(255, 251, 246);
 }
 
 /* Responsive Styling for screens smaller than 576px */
