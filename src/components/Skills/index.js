@@ -15,15 +15,52 @@ const Skills = () => {
         <div className="container-fluid" id="skillsContainer">
             <div className="row cards">
             <div className="profile-card" data-speed="2" id="webdev">
-                    <IoIosGlobe className="icon" size="5em"/>
+                <IoCodeSlashOutline className="icon" size="5em"/>
 
                     <h5 className="card-title">Web Developer</h5>
                     <p className="card-text">
-                        Build dynamic, efficient applications with elegant, sleak &amp; captivating designs.
+                        Build dynamic, efficient applications with elegant, sleek &amp; captivating designs.
                     </p>
                     <h5 className="card-title">
                         Languages I speak:
                     </h5>
+                    <div className="col">
+                            <div className="skill-bar-title">
+                                <FaHtml5 size="3em"/>
+                                <p>HTML5</p>
+                            </div>
+                        </div>
+
+                        <div className="col">
+                            <div className="skill-bar-title">
+                                <FaCss3Alt size="3em"/>
+                                <p>CSS3</p>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="skill-bar-title">
+                                <SiJavascript size="3em"/>
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="skill-bar-title">
+                                <FaReact size="3em"/>
+                                <p>React</p>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="skill-bar-title">
+                                <FaNodeJs size="3em"/>
+                                <p>NodeJS</p>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="skill-bar-title">
+                                <FaGithub size="3em"/>
+                                <p>Git</p>
+                            </div>
+                        </div>
                     <p className="card-text">
                         JavaScript, React, jQuery, HTML5, CSS3, Handlebars
                     </p>
@@ -39,7 +76,7 @@ const Skills = () => {
                         VSCode<br></br>
                     </p>
                 </div>
-                <div className="profile-card" id="engineer">
+                {/* <div className="profile-card" id="engineer">
                     <IoCodeSlashOutline className="icon" size="5em"/>
                     
                     <h5 className="card-title">Software Engineer</h5>
@@ -62,7 +99,7 @@ const Skills = () => {
                         Application Design<br></br>
                         Database Architecting<br></br>
                     </p>
-                </div>
+                </div> */}
             </div>
 
             {/* <br></br> */}
