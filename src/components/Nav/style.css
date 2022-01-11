@@ -1,0 +1,24 @@
+#navbar {
+    /* padding-bottom: 30px; */
+    background-color: rgb(167, 234, 255);
+}
+
+#navHeading {
+    color: white!important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 3px 2px  rgb(201, 201, 201);
+    margin: 20px;
+}
+
+.links {
+    color: grey!important;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    /* text-align: center; */
+    padding: 10px !important
+}
+
+/* #sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+} */

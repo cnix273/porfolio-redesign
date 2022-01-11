@@ -1,0 +1,90 @@
+#skillsContainer {
+    width: 90%;
+    background: linear-gradient(to bottom, white 75%, rgb(201, 201, 201) 0%);
+    margin-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+h5, p {
+    /* color: grey; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 10px
+}
+
+.profile-card {
+    background-color: rgb(167, 234, 255);
+    /* height: 700px; */
+    width: 375px;
+    padding: 30px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+#webdev {
+    Display: block;
+    margin-left: auto!important;
+    margin-right: 30px!important;
+}
+
+#engineer {
+    Display: block;
+    margin-left: 30px!important;
+    margin-right: auto!important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.languages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1033px) {
+    
+    #webdev, #engineer {
+        Display: block;
+        margin-left: 25%!important;
+        margin-right: 25%!important;
+        width: 450px!important;
+    }
+
+    #webdev {
+        margin-bottom: 20px;
+    }
+
+    #skillsContainer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 833px) {
+    
+    #webdev {
+        Display: block;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    
+    #engineer {
+        Display: block;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}

@@ -1,0 +1,66 @@
+#aboutContainer {
+    background-color: white;
+    /* width: 90%; */
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+/* 
+.header {
+    background-color: rgb(61, 195, 252);
+    background-color: rgb(201, 201, 201)!important;
+    background-color: rgb(167, 234, 255);
+    margin-top: 0px!important;
+}
+
+h1.title{
+    color: white;
+    text-shadow: 3px 2px  rgb(201, 201, 201);
+    margin: 30px;
+} */
+
+#aboutHead {
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
+
+#mainImage {
+    /* Structure */
+    border: 0!important;
+
+    /* Display */
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 400px;
+    height: auto!important;
+}
+
+p {
+    padding: 15px;
+    color: grey;
+}
+
+a {
+    color: grey!important;
+    font-size: 15px;
+    
+}
+
+/* .links {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.profLinks {
+    text-indent: 20px;
+    color: grey !important;
+    text-decoration: none;
+    text-indent: 20px;
+}
+
+.profLinks a:hover {
+    color: black;
+} */
