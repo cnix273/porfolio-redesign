@@ -1,80 +1,39 @@
 #headerContainer {
     height: 100vh;
     position: relative;
+    padding: 0;
 }
 
 #header-row {
-    height: 64.8px;
     width: 100%;
     position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-    margin: auto
-}
-
-#header-row2 {
-    height: 64.8px;
-    width: 100%;
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
+    /* bottom: x; left: 30px; */
+    top: 0; bottom: 0; left: auto; right: auto;
     margin: auto;
+    /* padding-top: 35% */
 }
 
-.solidHeader {
-    width: 50%;
-    float: left;
-    padding-right: 0;
+#type {
+    position: absolute;
+    top:30vh; left: 60px;
 }
 
-.solidHeader p {
-    font-family: 'Gilda Display', serif;;
-    font-weight: 100;
-    font-size: 3em;
-    text-align: right;
-    line-height: 64.8px;
-    padding: 0;
-    margin: auto 0 0 0;
-    color: #002d72;
+#scroll {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 251, 246);
+    /* color: #74916c!important; */
+    border-color: rgb(159, 168, 154);
+    color: rgb(159, 168, 154)!important;
 }
 
-.Typewriter {
-    color: red;
-}
-
-#targetrow {
-    width: 100%;
-    text-align: center;
-    padding-top: 0;
-    margin-top: 0;
-}
-
-#target {
-    font-family: 'Red Hat Display', sans-serif;
-    line-height: 1.3em;
-    font-weight: 100;
-    font-size: 2.5em;
-    color: green;
-    text-align: center;
-    padding-top: 0px;
-}
-
-
-#solidHeader3 {
-    width: 50%;
-    float: left;
-    padding-right: 0;
-    padding-top: 0;
-}
-
-#solidHeader3 p {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 300;
-    font-size: 3em;
-    text-align: right;
-    padding-right: 32.3px;
-    padding-top: 13px;
-    color: #002d72;
-}
-
-#typedHeader3 {
-    transform: translate(-39.8px);
+.react-typewriter-text {
+    text-align: left;
+    /* color: #507245!important; */
+    /* color: #627e59!important; */
+    /* color: #436537!important; */
+    color: rgb(51, 104, 18)!important;
+    /* color: red; */
 }
