@@ -1,25 +1,36 @@
 #aboutContainer {
-    margin-top: 50px;
-    margin-bottom: 10px;
+    padding: 63px 15px 15px;
+    /* margin-bottom: 10px; */
 }
 
 #mainImage {
     /* Structure */
     border: 0!important;
+    padding: 0;
 
     /* Display */
     display: block;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 80px auto;
+    border-radius: 0;
     
     width: 400px;
     height: auto!important;
 }
 
-p {
-    padding: 15px;
-    color: grey;
+#portfolio-picture {
+    border-right: 1px solid rgb(159, 168, 154);
+    /* rgba(245, 236, 227); */
+    /* color: rgb(159, 168, 154)!important; */
+}
+
+#about-text {
+    padding: 80px 73.5px;
+    color: rgb(108, 108, 108);
+}
+
+#about-text p {
+    text-align: left;
+    padding: 0;
 }
 
 .contactlinks {
