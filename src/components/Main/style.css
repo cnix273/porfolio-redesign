@@ -7,7 +7,10 @@
     font-size: 18px;
     line-height: 27px;
     font-family: 'Red Hat Display', sans-serif;
-    background-color:rgb(255, 251, 246);
+    background-color: rgb(255, 251, 246);
+    /* background-color:rgb(250, 244, 232); */
+    /* background-color:rgba(245, 236, 227, 0.856); */
+    /* background-color: #d1bba866; */
 }
 
 /* Responsive Styling for screens smaller than 576px */
