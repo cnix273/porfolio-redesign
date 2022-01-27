@@ -6,6 +6,26 @@
     padding-right: 60px;
 }
 
+#skills-header {
+    color: #436537;
+    /* font-family: "Gilda Display, serif"; */
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
+#skills {
+    text-align: left;
+    /* color: grey; */
+    color: rgb(159, 168, 154);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 50px;
+    line-height: normal;
+}
+
+#skills-list {
+    margin: auto;
+}
+
 h5, p {
     /* color: grey; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -16,7 +36,8 @@ h5, p {
 .profile-card {
     background-color: rgb(167, 234, 255);
     /* height: 700px; */
-    width: 600px;
+    /* width: 600px; */
+    width: 500px;
     padding: 30px;
     border: 0;
     border-radius: 0;
@@ -26,9 +47,15 @@ h5, p {
     color: rgb(0, 45, 114)
 }
 
-#webdev {
+/* #webdev {
     Display: block;
     margin: auto;
+} */
+
+#webdev {
+    Display: block;
+    margin-left: auto!important;
+    margin-right: 30px!important;
 }
 
 #engineer {
@@ -54,13 +81,13 @@ h5, p {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1033px) {
+/* @media screen and (max-width: 1033px) {
     
     #webdev, #engineer {
         Display: block;
         margin-left: 25%!important;
         margin-right: 25%!important;
-        width: 450px!important;
+        width: 500px!important;
     }
 
     #webdev {
@@ -71,7 +98,7 @@ h5, p {
         padding-left: 30px;
         padding-right: 30px;
     }
-}
+} */
 
 @media screen and (max-width: 833px) {
     
