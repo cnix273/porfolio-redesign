@@ -1,11 +1,29 @@
 #navbar {
     /* background-color: rgb(167, 234, 255); */
     background-color: rgb(255, 251, 246);
+    /* background-color:rgb(245, 236, 227); */
 }
 
 .links {
-    color: rgb(159, 49, 15)!important;
+    /* color: rgb(159, 49, 15)!important; */
+    color: rgb(159, 168, 154)!important;
+    /* color: rgb(0, 45, 114)!important; */
+    /* color: rgb(194, 83, 42)!important; */
+    /* color: #74916c!important; */
     font-weight: 700;
     font-size: 20px;
     padding: 40px 35px !important
+}
+
+.links:hover {
+    /* color: rgb(0, 45, 114)!important; */
+    color: rgb(159, 49, 15)!important;
+    /* color: #384b32!important; */
+    /* color: rgb(159, 168, 154)!important; */
+    /* color: rgb(176, 66, 33)!important; */
+    /* color: rgb(255, 247, 28)!important; */
+
+    font-weight: bolder;
+    font-size: larger;
+    /* text-decoration: underline wavy!important; */
 }
