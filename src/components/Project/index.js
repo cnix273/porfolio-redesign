@@ -1,4 +1,5 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 
 import "./style.css";
 import directory_walkthrough from "../Assets/employee_directory.gif";
@@ -16,8 +17,8 @@ const Portfolio = () => {
                 </div>
             </header>
 
-            <div className="row projectCards">
-                <div className="col-sm-5 projectMain">
+            <Row className="projectCards">
+                <Col sm={5} className="projectMain">
                     <h4 className="projectTitle">Employee Directory</h4>
 
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
@@ -29,11 +30,11 @@ const Portfolio = () => {
                     <br></br>
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/employee-directory">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://cnix273.github.io/employee-directory/">  Live Application</a> 
-                </div>
+                </Col>
 
                 <br></br>
 
-                <div className="col-sm-5 projectMain">
+                <Col sm={5} className="projectMain">
                     <h4 className="projectTitle">Burger Logger</h4>
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={burger_walkthrough} alt="Burger logger app walkthrough"></img>
@@ -45,11 +46,11 @@ const Portfolio = () => {
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Eat-Da-Burger">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://stark-reaches-59593.herokuapp.com/">  Live Application</a>
 
-                </div>
+                </Col>
 
                 <br></br>
 
-                <div className="col-sm-5 projectMain">
+                <Col sm={5} className="projectMain">
                     <h4 className="projectTitle">Note Taker</h4>
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={notetaker_walkthrough} alt="Note taker app walkthrough"></img>
@@ -61,7 +62,7 @@ const Portfolio = () => {
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/Note-Taker">  GitHub Repo</a>
                     <a className="projectLinks" id="live" href="https://peaceful-cove-68607.herokuapp.com/">  Live Application</a>
 
-                </div>
+                </Col>
 
                 <br></br>
 
@@ -77,7 +78,7 @@ const Portfolio = () => {
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/README-Generator">  GitHub Repo</a>
 
                 </div>
-            </div>
+            </Row>
         </div>
     );
 };
