@@ -29,7 +29,7 @@ const Skills = () => {
                     </p>
                 </Col>
             </Row>
-            <Row className="cards">
+            {/* <Row className="cards">
                 <Col className="profile-card" data-speed="2" id="webdev">
                     <IoCodeSlashOutline className="icon" size="5em"/>
 
@@ -111,56 +111,11 @@ const Skills = () => {
                         Database Architecting<br></br>
                     </p>
                 </Col>
+            </Row> */}
+            <Row id="pre-projects">
+                <Col className="midline-border"/>
+                <Col/>
             </Row>
-
-            {/* <br></br> */}
-
-            {/* <div className="row">
-                <div className="col-md-10 offset-md-1">
-                    <div className="row text-center languages">
-    
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <FaHtml5 size="3em"/>
-                                <p>HTML5</p>
-                            </div>
-                        </div>
-
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <FaCss3Alt size="3em"/>
-                                <p>CSS3</p>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <SiJavascript size="3em"/>
-                                <p>JavaScript</p>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <FaReact size="3em"/>
-                                <p>React</p>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <FaNodeJs size="3em"/>
-                                <p>NodeJS</p>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="skill-bar-title">
-                                <FaGithub size="3em"/>
-                                <p>Git</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-            {/* <br></br> */}
         </div>
     );
 };
