@@ -23,15 +23,29 @@
     text-align: center;
     /* box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%); */
     width: 400px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
 }
 
 .project-left {
     display: block;
-    margin: 40vh auto!important;
+    margin: 45vh auto!important;
     padding-bottom: 80px;
     text-align: center;
     /* box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%); */
     width: 400px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
 }
 
 /* Project Title Styling */
