@@ -1,45 +1,73 @@
+#projectContainer {
+    padding-top: 16px;
+}
+
+#projects-header {
+    padding-top: 34px;
+    color: #436537;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
 /* Portfolio Page Styling */
 .projectCards {
-    width: 90%;
     margin-right: auto!important;
     margin-left: auto!important;
 }
 
-/* Project Section Head Styling */
-#projectHead {
+/* Project Block Structure */
+.project-right {
+    display: block;
+    margin: 5vh auto!important;
+    padding-bottom: 80px;
     text-align: center;
-    margin: 20px;
-    color: gray;
+    /* box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%); */
+    width: 400px;
 }
 
-/* Project Block Structure */
-.projectMain {
+.project-left {
     display: block;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
+    margin: 40vh auto!important;
     padding-bottom: 80px;
+    text-align: center;
+    /* box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%); */
+    width: 400px;
 }
 
 /* Project Title Styling */
-.projectTitle {
+.project-right-title{
+    text-align: left;
+    transform: translateX(-35px);
+}
+
+.project-left-title{
+    text-align: right;
+    transform: translateX(35px);
+}
+
+.project-title {
     /* Typography */
-    color: gray;
-    font-size: 30px;
+    color: #9FA89A;
+    font-size: 40px;
     /* text-transform: uppercase; */
+    font-family: 'Gilda Display', serif;
+
 
     /* Structural */
-    margin: 20px;
-    padding: 30px;
+    /* margin: 20px 0px 0px;
+    padding: 30px 0px 0px; */
+    margin: 0;
+    padding-top: 10px;
+    background-color: rgb(255, 251, 246);
 }
 
-/* Project description */
-li {
-    color: gray;
-    text-align: left;
+.project-subtitle {
+    background-color: rgb(255, 251, 246);
+    text-transform: uppercase!important;
+    font-family: 'Red Hat Display', serif;
+    color: #ffe282;
 }
+
 
 .projectDescription {
     margin-bottom: 30px;
