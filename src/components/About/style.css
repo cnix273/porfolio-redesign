@@ -1,6 +1,16 @@
 #aboutContainer {
-    padding: 63px 15px 15px;
-    /* margin-bottom: 10px; */
+    padding: 92px 15px 0px;
+}
+
+#pre-about {
+    padding-top: 34px;
+}
+
+#about-header {
+    padding-top: 34px;
+    color: #436537;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
 }
 
 #mainImage {
@@ -10,30 +20,37 @@
 
     /* Display */
     display: block;
-    margin: 80px auto;
+    margin: 80px auto 0px;
     border-radius: 0;
     
     width: 400px;
     height: auto!important;
 }
 
-#portfolio-picture {
+.midline-border {
     border-right: 1px solid rgb(159, 168, 154);
-    /* rgba(245, 236, 227); */
-    /* color: rgb(159, 168, 154)!important; */
 }
 
 #about-text {
-    padding: 80px 73.5px;
-    color: rgb(108, 108, 108);
+    padding: 80px 73.5px 0px;
+    /* color: rgb(108, 108, 108); */
+    /* color: rgb(159, 168, 154); */
+    color: #9FA89A;
 }
 
 #about-text p {
     text-align: left;
     padding: 0;
+    font-family: "Gilda Display", serif;
+    font-size: 35px;
+    line-height: normal;
 }
 
 .contactlinks {
     color: grey!important;
     font-size: 15px;  
+}
+
+#pre-skills {
+    height: 80px;
 }
