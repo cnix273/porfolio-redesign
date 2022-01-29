@@ -5,27 +5,7 @@ import "./style.css";
 import { Button, Col, Row } from "react-bootstrap";
 import { Link } from 'react-scroll'
 
-// import scrollObject from "../About";
-
-// const scrollObject = React.useRef<HTMLInputElement>(null);
-
-// function smoothScrolling (scrollObject) {
-//     scrollObject.scrollIntoView({behavior: "smooth"});
-// };
-
 export default class Header extends Component {
-    
-    // constructor(props) {
-    //     super(props);
-    //     this.scrolling = this.smoothScrolling.bind(this);
-    // }
-    
-    // scrollObject = React.useRef<HTMLInputElement>(null);
-
-    // smoothScrolling = () => {
-    //     props.myref.current.scrollIntoView({behavior: "smooth"});
-    // };
-
     render() {
         return (
             <section className="container-fluid" id="headerContainer">
@@ -52,8 +32,6 @@ export default class Header extends Component {
                                     fontWeight: 500,
                                     fontSize: '5em',
                                 }}
-                                id = "mulit"
-                                // style={{display : 'inline-block'}}
                                 startDelay={3500}
                                 cursorColor="#002d72"
                                 multiText={[
