@@ -9,32 +9,12 @@ import Skills from "../Skills";
 
 import "./style.css";
 
-class Search extends Component {
-  state = {
-    name: [],
-    email: [],
-    message: []
-  };
-  
-  handleInputChange = event => {
-    const name = event.target.name;
-    const value = event.target.value;
-
-    this.setState({
-      [name]: [value]
-    })
-  }
-
-  // Setting state to search value
-  handleFormSubmit = event => {
-    event.preventDefault();
-
-  };
-
+class Main extends Component {
   render() {
     return (
       <div className="body">
         <Header/>
+        <br/>
         <Nav/>
         <About/>
         <Skills/>
@@ -45,4 +25,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default Main;
