@@ -7,18 +7,55 @@ import burger_walkthrough from "../Assets/burger_walkthrough.gif";
 import notetaker_walkthrough from "../Assets/notetaker_walkthrough.gif";
 import readme_walkthrough from "../Assets/readme_walkthrough.gif";
 
-const Portfolio = () => {
+const Projects = () => {
     return (
-        <div className="container-fluid" id ="projectContainer">
-            <header className="row">
-                <div className="col-sm-12">
-                    <h2 id="projectHead">RECENT PROJECTS</h2>
+        <section className="container-fluid" id ="projectContainer">
+            <Row>
+                <Col>
+                    <p id="projects-header">RECENT PROJECTS</p>
                     <p>Take a look at my portfolio page to discover some of my favorite coding projects I've completed recently.</p>
-                </div>
-            </header>
+                </Col>
+            </Row>
+            <Row id="projects-row">
+                <Col className="midline-border">
+                    <div className="projectCards">
+                        <div className="project-left">
+                            <h4 className="project-title project-left-title">Employee Directory</h4>
+                            <p className="project-subtitle project-left-title">Web Design</p>
 
-            <Row className="projectCards">
-                <Col sm={5} className="projectMain">
+                            <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
+
+                            <p className="projectDescription">
+                                A React-based web application that utilizes an API call to get employee data which can then be filtered or sorted for easy and efficienct viewing of employee records.
+                            </p>
+
+                            <br></br>
+                            <a className="projectLinks" id="github" href="https://github.com/cnix273/employee-directory">  GitHub Repo</a>
+                            <a className="projectLinks" id="live" href="https://cnix273.github.io/employee-directory/">  Live Application</a> 
+                        </div>
+                    </div>
+                </Col>
+
+                <Col>
+                    <div className="projectCards">
+                        <div className="project-right">
+                            <h4 className="project-title project-right-title">Employee Directory</h4>
+                            <p className="project-subtitle project-right-title">Web Design</p>
+                            <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
+
+                            <p className="projectDescription">
+                                A React-based web application that utilizes an API call to get employee data which can then be filtered or sorted for easy and efficienct viewing of employee records.
+                            </p>
+
+                            <br></br>
+                            <a className="projectLinks" id="github" href="https://github.com/cnix273/employee-directory">  GitHub Repo</a>
+                            <a className="projectLinks" id="live" href="https://cnix273.github.io/employee-directory/">  Live Application</a> 
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+            {/* <Row className="projectCards">
+                <Col sm={5} className="projectMain midline-border">
                     <h4 className="projectTitle">Employee Directory</h4>
 
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={directory_walkthrough} alt="Employee directory app walkthrough"></img>
@@ -66,7 +103,7 @@ const Portfolio = () => {
 
                 <br></br>
 
-                <div className="col-sm-5 projectMain">
+                <Col className="col-sm-5 projectMain">
                     <h4 className="projectTitle">README.md Generator</h4>
                     
                     <img className="img-thumbnail portfolioImage border-0 rounded-0" src={readme_walkthrough} alt="Readme generator app walkthrough"></img>
@@ -77,10 +114,10 @@ const Portfolio = () => {
 
                     <a className="projectLinks" id="github" href="https://github.com/cnix273/README-Generator">  GitHub Repo</a>
 
-                </div>
-            </Row>
-        </div>
+                </Col>
+            </Row> */}
+        </section>
     );
 };
 
-export default Portfolio;
+export default Projects;
